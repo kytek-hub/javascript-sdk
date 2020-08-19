@@ -1,6 +1,6 @@
 import Big, { BigSource } from "big.js"
 
-import { BncClient } from ".." // This is a circular dependecy; should be changed to `import type` asap
+import { BncClient } from "../index.ts" // This is a circular dependecy; should be changed to `import type` asap
 import * as crypto from "../../crypto"
 import { Coin, AminoPrefix } from "../../types"
 import { checkCoins } from "../../utils/validateHelper"

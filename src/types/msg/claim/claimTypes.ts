@@ -1,4 +1,4 @@
-import { Coin } from ".."
+import { Coin } from "../index.ts"
 
 export enum ClaimTypes {
   ClaimTypeSkipSequence = 0x1,

@@ -1,6 +1,6 @@
 import Big, { BigSource } from "big.js"
 
-import { api, BncClient } from ".."
+import { api, BncClient } from "../index.ts"
 import * as crypto from "../../crypto"
 import {
   Coin,

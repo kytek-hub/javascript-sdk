@@ -4,7 +4,7 @@
 
 import { Buffer } from "buffer"
 
-import { BncClient } from ".."
+import { BncClient } from "../index.ts"
 import * as crypto from "../../crypto"
 import { Coin, AminoPrefix } from "../../types"
 import { checkCoins } from "../../utils/validateHelper"
